@@ -1,0 +1,35 @@
+handiling events in react:
+
+we dont manually select dom elemnts 
+
+we use some thing to html inline event listeneres 
+
+we will directly listen to events in element itself
+
+onMouseEnter= {()=>{}} - not function call we need to specift function value because if we call it automatcally call when it gets rendered
+
+we will create a seperate functiona and passs that function here 
+
+----state
+
+everything in React revolves around state 
+
+what is state
+
+
+why do we need
+
+because upadting states triggers react to rerender the component 
+
+persist local variabeles between renders 
+states in practice : 
+
+use State, useReducrer, contextApI, Redux 
+
+Thnk about state: 
+
+when we use state, where to place state, types of state
+
+we dont updatedirect dom for manipulations
+
+so we update 
